@@ -10,7 +10,7 @@
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url: url(imagens/moon-stars.svg);
-    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    background-image: radial-gradient(circle at 50% -20.71%, #963cae 0, #7d2fad 16.67%, #5c23ac 33.33%, #261aaa 50%);
 
     
 }
@@ -35,8 +35,8 @@ body {
     width: 360px;
     margin: 56px auto 0px;
     padding: 0 24px;
-    border: 1px solid rgb(255, 255, 255);
-    background-image: url(./imagens/fundo-roxo.jpg);
+    border: 1px solid var(--text-color)
+   
 
 
 }
