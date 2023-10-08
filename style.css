@@ -46,12 +46,16 @@ body {
     text-align: center;
     padding: 24px;
     
+    
 }
 
 #profile img {
     width: 112px;
     border-radius: 100%;
     border: 2px solid white;
+    box-shadow: 8px 5px 30px black;
+
+    
 
 
 }
@@ -132,6 +136,8 @@ ul {
 }
 li {
     width: 100%;
+    box-shadow: 6px 4px 7px black;
+
     
 }
 
@@ -161,7 +167,7 @@ ul li a:hover {
 #social-links {
     display: flex;
     justify-content: center;
-
+    
     padding: 5px 0;
     font-size: 24px;
 }
@@ -174,6 +180,7 @@ ul li a:hover {
     color: var(--text-color);
     transition: background 0.1s;
     border-radius: 50%;
+    box-shadow: 2px 2px 3px black;
 }
 
 #social-links a:hover {
