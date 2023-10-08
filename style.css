@@ -10,8 +10,9 @@
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url: url(imagens/moon-stars.svg);
-    background-image: radial-gradient(circle at 50% -20.71%, #963cae 0, #7d2fad 16.67%, #5c23ac 33.33%, #261aaa 50%);
-
+    background-image: linear-gradient(to left, #5F02A6, #391952, #8202E6, #8A02F2, #8A02F2, #7402CC);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
     
 }
 
@@ -69,6 +70,10 @@ body {
     margin: 10px 0 0 10px;
     color: var(--text-color);
     
+}
+
+.project-h1 {
+    visibility: hidden;  
 }
 
 #switch {
@@ -192,5 +197,14 @@ ul li a:hover {
     }
     to { left: 0;;
 
+    }
+}
+
+@keyframes degrade-animado {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
     }
 }
