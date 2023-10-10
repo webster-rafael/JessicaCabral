@@ -31,3 +31,8 @@ function toggleMode() {
     origin: 'bottom', // de onde a animação deve vir ('left' para da esquerda para a direita)
     distance: '200px', // distância do deslocamento
     delay: 200 });
+
+    ScrollReveal().reveal('.fotos', { duration: 2000, // duração da animação em milissegundos
+    origin: 'left', // de onde a animação deve vir ('left' para da esquerda para a direita)
+    distance: '200px', // distância do deslocamento
+    delay: 200 });
